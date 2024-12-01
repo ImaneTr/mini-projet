@@ -1,0 +1,13 @@
+*,
+::after,
+::before{
+    box-sizing: border-box
+}
+
+#bg_profile{
+    font-family:'Poppins', sans-serif;
+    background-image: url("../images/General images/bg2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}

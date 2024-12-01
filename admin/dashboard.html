@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/manage.css">
+    <link rel="icon" type="image/x-icon" href="../images/Logo/logo1.1.png">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/db9d9c8d3d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        main{
+            background-color: white;
+        }
+        td{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body >
+    <header id="aside-header">
+        <nav class="navbar flex-column justify-content-between align-items-start">
+            <div class="w-100">
+                <a class="navbar-brand fw-bold logo" href="#">MaBiblio<span class="text-secondary fw-normal">théque</span></a>
+                <hr>
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a href="#" class="nav-link active"><i class="bi bi-microsoft"></i> <span>Dashboard</span></a></li>
+                    <li class="nav-item"><a href="clients.html" class="nav-link"><i class="bi bi-people-fill"></i> <span>Cliens</span></a></li>
+                    <li class="nav-item"><a href="add-Book.html" class="nav-link"><i class="bi bi-pen-fill"></i> <span>Add new book</span></a></li>
+                    <li class="nav-item"><a href="stock.html" class="nav-link"><i class="bi bi-gear-fill"></i> <span>Manage</span></a></li>
+                </ul>
+            </div>
+            <div class="w-100 px-2"><a href="../index.html" class="btn btn-outline-danger w-100"><i class="bi bi-box-arrow-left"></i> Log out</a></div>
+        </nav>
+    </header>
+    <main>
+        <div class="row">
+            <div class="col-lg-4 col-md-12" style="background-color: white;">
+                <div class="container">
+                    <div style="height: 100px;justify-content: center;">
+                        <h2>Overview</h2>
+                    </div>
+                    <div style="height: 50px;justify-content: center;">
+                        <h4>KPIs</h4>
+                    </div>
+                    <dl>
+                        <dt style="color: gray;">Current MRR</dt>
+                        <dd style="word-spacing:205px;font-size: larger;"><h6>$477.2K  <i class="fas fa-chart-line"></i></h6></dd><hr>
+                        
+                        <dt style="color: gray;">Current Customers</dt>
+                        <dd style="word-spacing: 220px;font-size: larger;"><h6>12453 <i class="fas fa-chart-line"></i></h6></dd><hr>
+                        
+                        <dt style="color: gray;">Active Customers</dt>
+                        <dd style="word-spacing: 210px;font-size: larger;"><h6> 65.55% <i class="fas fa-chart-line"></i></h6></dd><hr>
+                    </dl>
+
+                    <div style="height: 50px;justify-content: center;">
+                        <h4>Analytics</h4>
+                    </div>
+                    <img src="../images/General images/1732396631473.jpg" alt="" style="width: 100%;">
+                </div>
+            </div>
+
+
+
+            <div class="col-lg-8 col-md-12">
+            <div class="container">
+                <div style="height: 100px;justify-content: center;">
+                    <h2>This Year Growth</h2>
+                </div>
+                <img src="../images/General images/1732397025424.jpg" alt="" style="width: 100%;">
+                <div style="height: 100px;justify-content: center;">
+                    <h2>Recent Activity </h2>
+                </div>
+                <table class="table table-responsive">
+                    <tr>
+                        <th style="color: gray;">Customer</th>
+                        <th style="color: gray;">Status</th>
+                        <th style="color: gray;">Order Number</th>
+                        <th style="color: gray;">Amount</th>
+                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="../images/General images/avatar-business-women-vector-illustration-flat-2_764382-57434.avif" style="width: 45px; ;height:45px;">      Dallal
+                        </td>
+                        <td>Old Client </td>
+                        <td>F538291</td>
+                        <td>70$</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="../images/General images/little-boy-smiling-waving-hand-little-boy-portrait-circular-shape_254685-1100.avif" style="width: 50px; ;height:50px;"> Ahmed
+                        </td>
+                        <td>New Client </td>
+                        <td>R742615</td>
+                        <td>140$</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="../images/General images/portrait-teen-pupil-isolated-circle-icon-male-character-with-smile-face-classmate-schoolboy-sweater-profile-avatar-media-positive-teenager-smart-boy-vector-flat-style_87689-2399.avif" style="width: 50px; ;height:50px;">     Akram
+                        </td>
+                        <td>Signed up </td>
+                        <td>B893472</td>
+                        <td>30$</td>
+                    </tr>
+                </table>
+                <br><br>
+            </div>
+        </div>
+    </div>
+
+</main>
+</body>
